@@ -1,0 +1,26 @@
+#disk.c
+./disk 4 3 100 disk_storage 8071
+
+#fs.c
+./fs localhost 8071 8091
+
+#client.c
+./client localhost 8091
+f
+mkdir testDir1
+mkdir testDir2
+cd testDir1
+mk testf1
+mk testf2
+ls
+w testf1 20 it is a test file!
+cat testfa
+i testf1 15 insert something
+cat testf1
+rm testf1
+ls
+cd ..
+rmdir testDir2
+ls
+e
+

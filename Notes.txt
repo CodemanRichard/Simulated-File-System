@@ -1,0 +1,10 @@
+Makefile生成多个目标文件的写法
+https://blog.csdn.net/weixin_49199646/article/details/108956086
+
+connect()
+https://blog.csdn.net/dearQiHao/article/details/102877786
+
+需要映射的是block，将其映射到cylinder和sector，inode不需要映射
+
+
+对于rm，在fs中对那个emptyBlock进行标注即可，不需要在disk中进行实际更改
